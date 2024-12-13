@@ -197,8 +197,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Score: 0'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 87a97dab10bf62b48a2bdd137dc77d14, type: 2}
-  m_sharedMaterial: {fileID: -3864958424552139064, guid: 87a97dab10bf62b48a2bdd137dc77d14, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5e3bd65f362c89f4885bd90e3c98e17f, type: 2}
+  m_sharedMaterial: {fileID: -9057721871162638140, guid: 5e3bd65f362c89f4885bd90e3c98e17f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -222,8 +222,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25
-  m_fontSizeBase: 25
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -641,6 +641,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1145943183
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1145943184}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1145943184
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145943183}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 645.8158, y: 452, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1503711565
 GameObject:
   m_ObjectHideFlags: 0
@@ -790,7 +821,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1821462588
 RectTransform:
   m_ObjectHideFlags: 0
@@ -807,7 +838,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 97.315796, y: -65}
+  m_AnchoredPosition: {x: 97.315796, y: -78}
   m_SizeDelta: {x: 264.8772, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1821462589
@@ -845,10 +876,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\t  Game Over\n     Flap To Restart\n"
+  m_text: "\t     Game Over\n\t  Flap To Restart\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 87a97dab10bf62b48a2bdd137dc77d14, type: 2}
-  m_sharedMaterial: {fileID: -3864958424552139064, guid: 87a97dab10bf62b48a2bdd137dc77d14, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5e3bd65f362c89f4885bd90e3c98e17f, type: 2}
+  m_sharedMaterial: {fileID: -9057721871162638140, guid: 5e3bd65f362c89f4885bd90e3c98e17f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1140,3 +1171,4 @@ SceneRoots:
   - {fileID: 1503711568}
   - {fileID: 671627059}
   - {fileID: 790885061}
+  - {fileID: 1145943184}
